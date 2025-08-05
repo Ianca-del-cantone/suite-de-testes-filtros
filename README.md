@@ -160,12 +160,10 @@ Porque assim acompanho minhas tarefas de forma completa e organizada
 ---
 
 ## ✅ Critérios de Aceite (Gherkin)  
-
-**Cenário:** Visualizar todos os itens com o filtro "All"<br>  
-**Dado que** existem itens pendentes e concluídos na lista<br>  
-**Quando** seleciono o filtro "All"<br>  
-**Então** todos os itens devem aparecer conforme seu status  
-
+**Cenário:** Visualizar todos os itens com o filtro "All"<br>
+**Dado que** existem itens pendentes e concluídos na lista<br>
+**Quando** seleciono o filtro "All"<br>
+**Então** todos os itens devem aparecer conforme seu status
 
 ---
 
