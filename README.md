@@ -144,8 +144,8 @@ Filtro "Todos (All)" na lista de tarefas do TodoMVC, que deve mostrar todos os i
 ---
 
 ## 📝 User Story  
-Eu, como usuária da aplicação<br>  
-Gostaria de visualizar todos os itens da minha lista, sejam pendentes ou concluídos<br>  
+Eu, como usuária da aplicação  
+Gostaria de visualizar todos os itens da minha lista, sejam pendentes ou concluídos  
 Porque assim acompanho minhas tarefas de forma completa e organizada  
 
 ---
