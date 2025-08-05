@@ -137,7 +137,7 @@ Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders,
 
 ---
 
-## 🧩 Funcionalidade
+## 🧩 Funcionalidade testada
 
 Filtro "Todos (All)" na lista de tarefas do TodoMVC, que deve mostrar todos os itens da lista com suas características visuais e manter o contador correto.
 
