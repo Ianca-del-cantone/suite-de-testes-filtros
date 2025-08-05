@@ -1,3 +1,13 @@
+# 🧾 SSuíte de Testes - Filtro "Todos (All)"
+
+Este repositório faz parte do meu aprendizado em QA, onde documento a criação de suítes de teste usando critérios de aceite escritos em Gherkin. O objetivo aqui é desenvolver uma visão crítica para validar funcionalidades com clareza e organização, preparando um material que facilite análise e automação.
+
+O foco é aprimorar a escrita técnica, simular cenários reais de teste e mostrar a importância de uma suíte de testes bem construída para garantir qualidade.
+
+
+ **Site utilizado nos testes:** [TodoMVC - React](https://todomvc.com/examples/react/dist/) 
+ 
+
 <details>
   <summary><strong>📋 Clique aqui para ver a suíte de testes do filtro "All"</strong></summary>
 
@@ -99,3 +109,109 @@
 </table>
 
 </details>
+
+## 🧪 O que é uma Suíte de Testes?
+
+Uma suíte de testes reúne casos que validam o comportamento esperado de uma funcionalidade ou fluxo, assegurando que a aplicação funcione conforme o planejado e que possíveis falhas sejam detectadas rapidamente.
+
+ Ter uma suíte bem documentada é essencial para:
+- Cobrir os principais cenários e variações
+- Facilitar a execução manual e futura automação
+- Ajudar na rastreabilidade dos testes
+- Manter consistência na validação de funcionalidades
+- Apoiar entregas com mais confiança
+
+
+## ✍️ Linguagem Gherkin
+A linguagem Gherkin é usada para escrever casos de teste de forma simples e legível, mesmo por pessoas não técnicas.
+Ela segue o formato:
+
+```
+Cenário: [descrição do cenário]  
+Dado que [estado inicial]  
+Quando [ação realizada]  
+Então [resultado esperado]  
+```
+
+Esse formato facilita a comunicação entre desenvolvedores, QAs e stakeholders, pois descreve o comportamento do sistema pela ótica do usuário.
+
+---
+
+## 🧩 Funcionalidade
+
+Filtro "Todos (All)" na lista de tarefas do TodoMVC, que deve mostrar todos os itens da lista com suas características visuais e manter o contador correto.
+
+---
+
+## 📝 User Story  
+Eu, como usuária da aplicação  
+Gostaria de visualizar todos os itens da minha lista, sejam pendentes ou concluídos
+Porque assim acompanhar minhas tarefas de forma completa e organizada
+
+---
+
+## 📌 Regras de Negócio
+
+- **RN1**: O filtro "All" apresenta todos os itens da lista
+- **RN2**: Itens concluídos aparecem com texto riscado, cinza claro e checkbox marcado
+- **RN3**: Itens pendentes aparecem sem marcação
+- **RN4**: O contador reflete corretamente a quantidade de itens pendentes
+
+---
+
+## ✅ Critérios de Aceite (Gherkin)  
+
+**Cenário:** Visualizar todos os itens com o filtro "All"  
+**Dado que** existem itens pendentes e concluídos na lista 
+**Quando** seleciono o filtro "All"
+**Então** todos os itens devem aparecer conforme seu status
+
+---
+
+## 🧠 Diferença entre Prioridade e Severidade
+
+| Conceito       | O que significa                                                        | Quem define          |
+| -------------- | ---------------------------------------------------------------------- | -------------------- |
+| **Prioridade** | Define o quão rápido o teste deve ser executado ou o defeito resolvido | Time de produto / QA |
+| **Severidade** | Mede o impacto técnico do problema no sistema                          | Time de QA           |
+
+---
+
+## 📝 Sobre os Casos de Teste  
+Todos os testes foram escritos com foco em:
+
+- Cobrir os comportamentos principais do filtro
+- Trabalhar com critérios claros e mensuráveis  
+- Organizar os testes com colunas como Prioridade, Severidade, Status, etc.
+
+---
+
+## 🎯 Objetivo do Projeto  
+Praticar a criação de suítes de testes a partir de critérios bem definidos.
+
+- Validar o comportamento do filtro "Todos (All)" na exibição dos itens
+- Reforçar o uso de Gherkin como ponte entre negócio e testes  
+- Desenvolver habilidades práticas essenciais para a atuação em QA
+
+---
+
+## 📌 Observação
+Este projeto não contém código-fonte, pois o foco está na documentação de testes e raciocínio analítico em QA.
+É um exercício essencial para fortalecer a base teórica e desenvolver uma visão crítica sobre o que deve ser testado em uma aplicação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
