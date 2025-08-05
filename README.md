@@ -1,4 +1,4 @@
-# 🧾 SSuíte de Testes - Filtro "Todos (All)"
+# 🧾 Suíte de Testes - Filtro "Todos (All)"
 
 Este repositório faz parte do meu aprendizado em QA, onde documento a criação de suítes de teste usando critérios de aceite escritos em Gherkin. O objetivo aqui é desenvolver uma visão crítica para validar funcionalidades com clareza e organização, preparando um material que facilite análise e automação.
 
@@ -144,9 +144,9 @@ Filtro "Todos (All)" na lista de tarefas do TodoMVC, que deve mostrar todos os i
 ---
 
 ## 📝 User Story  
-Eu, como usuária da aplicação  
-Gostaria de visualizar todos os itens da minha lista, sejam pendentes ou concluídos
-Porque assim acompanhar minhas tarefas de forma completa e organizada
+Eu, como usuária da aplicação<br>  
+Gostaria de visualizar todos os itens da minha lista, sejam pendentes ou concluídos<br>  
+Porque assim acompanho minhas tarefas de forma completa e organizada  
 
 ---
 
